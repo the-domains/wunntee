@@ -1,14 +1,26 @@
-layout_spectrum: 0.3603009427897632
-typography_spectrum: 0.3008533229585737
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  brandStrength: 0.2855343131814152
-  lightness: 0.05273481993936002
   saturation: 0.8793401706498116
-  rhythmicContrast: 0.39743245602585375
+  brandStrength: 0.6021277
+  lightness: 0.05273481993936002
   brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
+    - '#FFFFFF'
+    - '#C22226'
+    - '#000000'
+    - '#494949'
+    - '#D45F63'
+  rhythmicContrast: 0.3974324560258538
+typography_spectrum: 0.2638298
+layout_spectrum: 0.2297872
 name: wunntee
